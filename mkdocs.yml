@@ -1,0 +1,15 @@
+site_name: My Docs
+
+theme:
+  name: material
+  palette:
+    primary: "blue"
+    accent: "light blue"
+  font:
+    text: "Roboto"
+    code: "Roboto Mono"
+
+plugins:
+  - search
+  - mermaid2
+  - mkdocstrings
