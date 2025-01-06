@@ -17,7 +17,7 @@ Y -->|Sucesso| D[Salvar no DuckDB];
 
 ## Ler o Banco
 
-::: app.elt.extrair_do_sql
+::: app.etl.extrair_do_sql
 
 ## Transformar os KPIs
 
