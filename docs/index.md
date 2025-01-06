@@ -11,10 +11,6 @@ Y -->|Falha| Z[Alerta de Erro];
 Y -->|Sucesso| D[Salvar no DuckDB];
 ```
 
+## Contrato de dados
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+::: app.schemas.ProdutoSchema
