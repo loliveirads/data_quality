@@ -38,6 +38,6 @@ black .
 """
 test = "pytest -v"
 run = """
-python3 app/main.pytest
+python3 app/etl.py
 """
 doc = "mkdocs serve"
