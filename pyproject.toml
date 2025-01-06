@@ -4,9 +4,11 @@ version = "0.1.0"
 description = ""
 authors = ["Luiz Fernando <luizfsoliveira.lm@gmail.com>"]
 readme = "README.md"
+packages = [{ include = "app" }]
+
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.11"
 mkdocs = "^1.6.1"
 mkdocs-mermaid2-plugin = "^1.2.1"
 mkdocs-material = "^9.5.49"
@@ -15,6 +17,14 @@ taskipy = "^1.14.1"
 isort = "^5.13.2"
 black = "^24.10.0"
 pytest = "^8.3.4"
+pydantic = "^2.10.4"
+sqlalchemy = "^2.0.36"
+python-dotenv = "^1.0.1"
+psycopg2 = "^2.9.10"
+pandas = "^2.2.3"
+pandera = "0.14.5"
+numpy = "1.26.4"
+multimethod = "1.9.1"
 
 
 [build-system]
