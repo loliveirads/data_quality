@@ -1,0 +1,302 @@
+[
+    {
+        "id_produto":1,
+        "nome":"Smartphone XYZ",
+        "quantidade":50,
+        "preco":2999.99,
+        "categoria":"Eletrônicos",
+        "valor_total_estoque":149999.5,
+        "categoria_normalizada":"ELETRÔNICOS",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":2,
+        "nome":"Notebook Ultra",
+        "quantidade":30,
+        "preco":5499.99,
+        "categoria":"Computadores",
+        "valor_total_estoque":164999.7,
+        "categoria_normalizada":"COMPUTADORES",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":3,
+        "nome":"Smartwatch Alpha",
+        "quantidade":25,
+        "preco":899.99,
+        "categoria":"Wearables",
+        "valor_total_estoque":22499.75,
+        "categoria_normalizada":"WEARABLES",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":4,
+        "nome":"Câmera Pro",
+        "quantidade":40,
+        "preco":2499.5,
+        "categoria":"Fotografia",
+        "valor_total_estoque":99980.0,
+        "categoria_normalizada":"FOTOGRAFIA",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":5,
+        "nome":"Teclado Gamer",
+        "quantidade":20,
+        "preco":299.99,
+        "categoria":"Periféricos",
+        "valor_total_estoque":5999.8,
+        "categoria_normalizada":"PERIFÉRICOS",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":6,
+        "nome":"Mouse Sem Fio",
+        "quantidade":35,
+        "preco":199.99,
+        "categoria":"Periféricos",
+        "valor_total_estoque":6999.65,
+        "categoria_normalizada":"PERIFÉRICOS",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":7,
+        "nome":"Monitor 4K",
+        "quantidade":45,
+        "preco":1799.99,
+        "categoria":"Computadores",
+        "valor_total_estoque":80999.55,
+        "categoria_normalizada":"COMPUTADORES",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":8,
+        "nome":"Headset Gamer",
+        "quantidade":22,
+        "preco":499.99,
+        "categoria":"Periféricos",
+        "valor_total_estoque":10999.78,
+        "categoria_normalizada":"PERIFÉRICOS",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":9,
+        "nome":"Impressora Laser",
+        "quantidade":28,
+        "preco":899.5,
+        "categoria":"Escritório",
+        "valor_total_estoque":25186.0,
+        "categoria_normalizada":"ESCRITÓRIO",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":10,
+        "nome":"Roteador Wi-Fi 6",
+        "quantidade":50,
+        "preco":349.99,
+        "categoria":"Redes",
+        "valor_total_estoque":17499.5,
+        "categoria_normalizada":"REDES",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":11,
+        "nome":"Tablet Pro",
+        "quantidade":60,
+        "preco":1999.99,
+        "categoria":"Eletrônicos",
+        "valor_total_estoque":119999.4,
+        "categoria_normalizada":"ELETRÔNICOS",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":12,
+        "nome":"HD Externo 1TB",
+        "quantidade":33,
+        "preco":299.99,
+        "categoria":"Armazenamento",
+        "valor_total_estoque":9899.67,
+        "categoria_normalizada":"ARMAZENAMENTO",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":13,
+        "nome":"Pen Drive 64GB",
+        "quantidade":42,
+        "preco":49.99,
+        "categoria":"Armazenamento",
+        "valor_total_estoque":2099.58,
+        "categoria_normalizada":"ARMAZENAMENTO",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":14,
+        "nome":"Cadeira Gamer",
+        "quantidade":25,
+        "preco":999.99,
+        "categoria":"Mobiliário",
+        "valor_total_estoque":24999.75,
+        "categoria_normalizada":"MOBILIÁRIO",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":15,
+        "nome":"Gabinete RGB",
+        "quantidade":26,
+        "preco":399.99,
+        "categoria":"Computadores",
+        "valor_total_estoque":10399.74,
+        "categoria_normalizada":"COMPUTADORES",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":16,
+        "nome":"Placa de Vídeo RTX 3080",
+        "quantidade":21,
+        "preco":6999.99,
+        "categoria":"Hardware",
+        "valor_total_estoque":146999.79,
+        "categoria_normalizada":"HARDWARE",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":17,
+        "nome":"Processador i9",
+        "quantidade":27,
+        "preco":2499.99,
+        "categoria":"Hardware",
+        "valor_total_estoque":67499.73,
+        "categoria_normalizada":"HARDWARE",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":18,
+        "nome":"Memória RAM 16GB",
+        "quantidade":40,
+        "preco":499.99,
+        "categoria":"Hardware",
+        "valor_total_estoque":19999.6,
+        "categoria_normalizada":"HARDWARE",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":19,
+        "nome":"Teclado Bluetooth",
+        "quantidade":23,
+        "preco":199.99,
+        "categoria":"Periféricos",
+        "valor_total_estoque":4599.77,
+        "categoria_normalizada":"PERIFÉRICOS",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":20,
+        "nome":"Caixa de Som Bluetooth",
+        "quantidade":24,
+        "preco":149.99,
+        "categoria":"Áudio",
+        "valor_total_estoque":3599.76,
+        "categoria_normalizada":"ÁUDIO",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":21,
+        "nome":"Controle de PS5",
+        "quantidade":55,
+        "preco":349.99,
+        "categoria":"Consoles",
+        "valor_total_estoque":19249.45,
+        "categoria_normalizada":"CONSOLES",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":22,
+        "nome":"Console PS5",
+        "quantidade":20,
+        "preco":4499.99,
+        "categoria":"Consoles",
+        "valor_total_estoque":89999.8,
+        "categoria_normalizada":"CONSOLES",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":23,
+        "nome":"Smart TV 55\"",
+        "quantidade":30,
+        "preco":2999.99,
+        "categoria":"Eletrônicos",
+        "valor_total_estoque":89999.7,
+        "categoria_normalizada":"ELETRÔNICOS",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":24,
+        "nome":"Ar Condicionado Split",
+        "quantidade":22,
+        "preco":2199.99,
+        "categoria":"Eletrodomésticos",
+        "valor_total_estoque":48399.78,
+        "categoria_normalizada":"ELETRODOMÉSTICOS",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":25,
+        "nome":"Geladeira Frost Free",
+        "quantidade":21,
+        "preco":3499.99,
+        "categoria":"Eletrodomésticos",
+        "valor_total_estoque":73499.79,
+        "categoria_normalizada":"ELETRODOMÉSTICOS",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":26,
+        "nome":"Microondas Digital",
+        "quantidade":25,
+        "preco":499.99,
+        "categoria":"Eletrodomésticos",
+        "valor_total_estoque":12499.75,
+        "categoria_normalizada":"ELETRODOMÉSTICOS",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":27,
+        "nome":"Fogão 5 Bocas",
+        "quantidade":26,
+        "preco":899.99,
+        "categoria":"Eletrodomésticos",
+        "valor_total_estoque":23399.74,
+        "categoria_normalizada":"ELETRODOMÉSTICOS",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":28,
+        "nome":"Máquina de Lavar",
+        "quantidade":24,
+        "preco":1999.99,
+        "categoria":"Eletrodomésticos",
+        "valor_total_estoque":47999.76,
+        "categoria_normalizada":"ELETRODOMÉSTICOS",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":29,
+        "nome":"Drone Profissional",
+        "quantidade":20,
+        "preco":4599.99,
+        "categoria":"Eletrônicos",
+        "valor_total_estoque":91999.8,
+        "categoria_normalizada":"ELETRÔNICOS",
+        "disponibilidade":true
+    },
+    {
+        "id_produto":30,
+        "nome":"Notebook Gamer",
+        "quantidade":29,
+        "preco":5999.99,
+        "categoria":"Computadores",
+        "valor_total_estoque":173999.71,
+        "categoria_normalizada":"COMPUTADORES",
+        "disponibilidade":true
+    }
+]

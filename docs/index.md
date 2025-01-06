@@ -14,3 +14,9 @@ Y -->|Sucesso| D[Salvar no DuckDB];
 ## Contrato de dados
 
 ::: app.schemas.ProdutoSchema
+
+::: app.elt.extrair_do_sql
+
+::: app.etl.transformar
+
+::: app.etl.load_to_duckdb
