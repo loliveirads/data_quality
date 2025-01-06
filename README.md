@@ -8,7 +8,9 @@ Este repositório faz parte do projeto **"Data Quality Pipeline"**, cujo objetiv
 
 ## Visite minha documentação
 
-(![image](/pic/fluxo.png))(https://loliveirads.github.io/data_quality/)
+### 📊 **Fluxo do Projeto**
+
+[![Fluxo do Projeto](https://github.com/loliveirads/data_quality/raw/main/pic/fluxo.png)](https://loliveirads.github.io/data_quality/)
 
 ## 🎯 **Objetivos do Projeto**
 
