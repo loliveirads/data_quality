@@ -15,10 +15,17 @@ class ProdutoSchema(pa.SchemaModel):
     
     id_produto: Series[int] = pa.Field(ge=0, description="Identificador único do produto (sem limite máximo).")
     nome: Series[str] = pa.Field(nullable=False, description="Nome do produto.")
-    quantidade: Series[int] = pa.Field(ge=20, le=200, description="Quantidade em estoque (20 a 200).")
+    quantidade: Series[int] = pa.Field(ge=0, description="Quantidade em estoque ")
     preco: Series[float] = pa.Field(ge=0.01, description="Preço do produto (deve ser maior que 0).")
     categoria: Series[str] = pa.Field(nullable=False, description="Categoria do produto.")
     
     class Config:
         coerce = True  # Força a conversão dos tipos
         strict = True  # Garante que apenas colunas definidas no schema sejam aceitas
+
+
+class ProductSchemaKPI(ProdutoSchema):
+
+    valor_total_estoque: Series[float] = pa.Field(ge=0)  # O valor total em estoque deve ser >= 0
+    categoria_normalizada: Series[str]  # Assume-se que a categoria será uma string, não precisa de check específico além de ser uma string
+    disponibilidade: Series[bool]  # Disponibilidade é um booleano, então não precisa de check específico
