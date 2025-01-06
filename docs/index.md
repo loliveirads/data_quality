@@ -1,13 +1,16 @@
-# Welcome to MkDocs
+# Documentação - Data Quality
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+```mermaid
+graph TD;
+A[Configura Variáveis] --> B[Ler o Banco SQL];
+B -->|Sucesso| V[Validação do Schema de Entrada];
+V -->|Falha| X[Alerta de Erro];
+V -->|Sucesso| C[Transformar os KPIs];
+C --> Y[Validação do Schema de Saída];
+Y -->|Falha| Z[Alerta de Erro];
+Y -->|Sucesso| D[Salvar no DuckDB];
+```
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
 
 ## Project layout
 
